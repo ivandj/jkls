@@ -1,4 +1,5 @@
 name: Jekyll with search
+description: Trying out Jekyll
 markdown: redcarpet
 pygments: true
 baseurl: /jkls
