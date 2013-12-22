@@ -2,6 +2,7 @@ name: Jekyll with search
 markdown: redcarpet
 pygments: true
 baseurl: /jkls
+url: http://ivandj.github.io/jkls
 server: auto
 safe: true
 auto: true
