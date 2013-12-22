@@ -1,0 +1,8 @@
+name: Jekyll with benefits
+markdown: redcarpet
+pygments: true
+baseurl: /jkls
+server: auto
+safe: true
+auto: true
+permalink: :year-:month-:day/:title/
