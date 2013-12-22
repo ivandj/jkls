@@ -8,10 +8,6 @@ categories: jekyll
 RSS is nice and easy. Search is easy if on the same page.
 
 {% highlight ruby %}
-def print_hi(name)
-  puts {{ page.url }}
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
+puts "{{ page.url }}"
 {% endhighlight %}
 
