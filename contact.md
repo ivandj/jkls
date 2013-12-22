@@ -8,7 +8,7 @@ id: /contact
 icons: true
 ---
 
-Trying to see how the pages work.
+Email me at ivandj@gmail.com
 
 {% highlight ruby %}
 #nice one
