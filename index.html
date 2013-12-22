@@ -4,7 +4,7 @@ title: Trying out Jekyll - Ivan Djordjevic
 ---
 
 <div id="home">
-  <h1>Blog Posts <a href="{{ site.baseurl }}/rss/"><img src="{{ site.baseurl }}/img/rss.jpg" width="8" height="8"></a></h1>
+  <h1>Blog Posts <a href="{{ site.baseurl }}/rss/"><img src="{{ site.baseurl }}/img/rss.jpg" width="12" height="12" id="rss-icon"></a></h1>
   <ul class="posts">
     {% for post in site.posts %}
       <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
