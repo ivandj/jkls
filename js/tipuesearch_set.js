@@ -19,6 +19,8 @@ var tipuesearch_stem = {"words": [
      {"word": "javascript", stem: "script"},
      {"word": "javascript", stem: "js"}
 ]};
+
+/*
 var tipuesearch_pages = [
     "http://ivandj.github.io/jkls/2013-12-14/hello/",
     "http://ivandj.github.io/jkls/2013-12-15/welcome-to-jekyll/",
@@ -26,6 +28,6 @@ var tipuesearch_pages = [
     "http://ivandj.github.io/jkls/about/",
     "http://ivandj.github.io/jkls/contact-info/"
     ];
-
+*/
 
 

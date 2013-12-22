@@ -17,6 +17,17 @@
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
         <script src="{{ site.baseurl }}/js/tipuesearch_set.js"></script>
+        <script>
+        var tipuesearch_pages = [
+            {% for post in site.posts %}
+              "{{ site.baseurl }}{{ post.url }}",
+            {% endfor %}
+            {% for page in site.pages %}
+                "{{ site.baseurl }}{{ page.url }}",
+            {% endfor %}
+        ];
+        </script>
+
         <script src="{{ site.baseurl }}/js/tipuesearch.js"></script>
 
     </head>
