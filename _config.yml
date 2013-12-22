@@ -1,4 +1,4 @@
-name: Jekyll with benefits
+name: Jekyll with search
 markdown: redcarpet
 pygments: true
 baseurl: /jkls
