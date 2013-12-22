@@ -20,11 +20,9 @@ http://www.tipue.com/search
                'descriptiveWords'       : 25,
                'highlightTerms'         : true,
                'highlightEveryTerm'     : false,
-               'mode'                   : 'static',
+               'mode'                   : 'live',
                'liveDescription'        : '*',
-               'liveContent'            : '*',
-               'contentLocation'        : 'tipuesearch/tipuesearch_content.json'
-
+               'liveContent'            : '*'
           }, options);
 
           return this.each(function() {
@@ -109,6 +107,7 @@ http://www.tipue.com/search
                {
                     if(event.keyCode == '13')
                     {
+                         $('#tipue_search_loading').show('fast');
                          getTipueSearch(0, true);
                     }
                });
