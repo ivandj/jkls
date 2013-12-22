@@ -107,6 +107,10 @@ a:visited { color: #a0a; }
   margin-right: 3em;
 }
 
+.footer .contact2 {
+  float: right;
+}
+
 .footer .contact a {
   color: #8085C1;
 }
