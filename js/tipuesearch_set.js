@@ -19,12 +19,3 @@ var tipuesearch_stem = {"words": [
      {"word": "javascript", stem: "script"},
      {"word": "javascript", stem: "js"}
 ]};
-
-var tipuesearch_pages = [
-    {% for post in site.posts %}
-        "{{ site.url }}{{ post.url }}",
-    {% endfor %}
-    {% for page in site.pages %}
-        "{{ site.url }}{{ page.url }}"{% unless forloop.last %}, {% endunless %}
-    {% endfor %}
-];
