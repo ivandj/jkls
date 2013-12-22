@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "New features added"
+date:   2013-12-21 01:23:45
+categories: jekyll update
+---
+
+RSS is nice and easy. Search is easy if on the same page.
+
+{% highlight ruby %}
+def print_hi(name)
+  puts {{ page.url }}
+end
+print_hi('Tom')
+#=> prints 'Hi, Tom' to STDOUT.
+{% endhighlight %}
+
