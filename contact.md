@@ -8,7 +8,7 @@ id: /contact
 icons: true
 ---
 
-Email me at ivandj@gmail.com
+Email me at [ivandj@gmail.com](ivandj@gmail.com)
 
 {% highlight ruby %}
 #nice one
