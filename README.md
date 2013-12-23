@@ -1,1 +1,1 @@
-Trying Jekyll. [ivandj.github.com/jkls/](ivandj.github.com/jkls/)
+Trying Jekyll. [ivandj.github.io/jkls/](ivandj.github.io/jkls/)
