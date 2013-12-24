@@ -13,9 +13,10 @@ title: Trying out Jekyll - Ivan Djordjevic
 
   <h1>Categories </h2>
     {% for category in site.categories %} {{ category | first }} (({{ site.categories[category].size }})) {% endfor %}
-
+    <br/><br/>
   <h1>Tags </h2>
   {% for tag in site.tags %} {{ tag | first }} ({{ site.tags[tag].size }}), {% endfor %}
+    <br/><br/>
 
   <h1>Archive </h2>
   <ul class="posts">
