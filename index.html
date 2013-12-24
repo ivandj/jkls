@@ -10,4 +10,10 @@ title: Trying out Jekyll - Ivan Djordjevic
       <li><span>{{ post.date | date_to_string }}</span> &nbsp;&nbsp;&nbsp; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
   </ul>
+  <h1>Categories </h1>
+  <ul class="posts">
+    {% for category in site.categories %}
+      <li>{{ category | first }}</li>
+    {% endfor %}
+  </ul>
 </div>

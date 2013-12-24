@@ -2,7 +2,7 @@
 layout: post
 title:  "Hello!"
 date:   2013-12-14 01:23:45
-categories: jekyll update
+categories: seconds
 ---
 
 You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!

@@ -2,7 +2,7 @@
 layout: post
 title:  "Benefits"
 date:   2013-12-21 01:23:45
-categories: jekyll update
+categories: search
 ---
 
 Jekyll also offers powerful support for code snippets:
