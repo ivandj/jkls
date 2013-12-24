@@ -12,19 +12,10 @@ title: Trying out Jekyll - Ivan Djordjevic
   </ul>
 
   <h1>Categories </h2>
-  <ul class="posts">
-    {% for category in site.categories %}
-      <li>{{ category | first }}</li>
-    {% endfor %}
-  </ul>
-
+    {% for category in site.categories %} {{ category | first }} {% endfor %}
 
   <h1>Tags </h2>
-  <ul class="posts">
-        {% for tag in site.tags %}
-            {{ tag }},
-        {% endfor %}
-  </ul>
+  {% for tag in site.tags %} {{ tag }}, {% endfor %}
 
   <h1>Archive </h2>
   <ul class="posts">
