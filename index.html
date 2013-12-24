@@ -10,12 +10,13 @@ title: Trying out Jekyll - Ivan Djordjevic
       <li><span>{{ post.date | date_to_string }}</span> &nbsp;&nbsp;&nbsp; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
   </ul>
+    <br/>
 
-  <h2>Categories </h2>
+  <strong>Categories </strong>
     {% for category in site.categories %} {{ category | first }} (({{ site.categories[category].size }})) {% endfor %}
     <br/><br/>
 
-  <h2>Tags </h2>
+  <strong>Tags </strong>
     {% for tag in site.tags %} {{ tag | first }} ({{ site.tags[tag].size }}){% unless forloop.last %}, {% endunless %} {% endfor %}
     <br/><br/>
 
