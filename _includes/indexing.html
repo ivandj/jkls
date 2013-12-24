@@ -4,7 +4,9 @@
                 "{{ site.url }}{{ post.url }}",
             {% endfor %}
             {% for pagei in site.pages %}
+                {% unless pagei.url == "{{ site.url }}/index.html" || page.url == "{{ site.url }}/rss/index.xml" %}
                     "{{ site.url }}{{ pagei.url }}"{% unless forloop.last %}, {% endunless %}
+                {% endunless %}
             {% endfor %}
         ];
     </script>
