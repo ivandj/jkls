@@ -12,10 +12,10 @@ title: Trying out Jekyll - Ivan Djordjevic
   </ul>
 
   <h1>Categories </h2>
-    {% for category in site.categories %} {{ category | first }} {% endfor %}
+    {% for category in site.categories %} {{ category | first }} (({{ site.categories[category].size }})) {% endfor %}
 
   <h1>Tags </h2>
-  {% for tag in site.tags %} {{ tag | first }}, {% endfor %}
+  {% for tag in site.tags %} {{ tag | first }} ({{ site.tags[tag].size }}), {% endfor %}
 
   <h1>Archive </h2>
   <ul class="posts">
