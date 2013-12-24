@@ -21,7 +21,7 @@ title: Trying out Jekyll - Ivan Djordjevic
     <br/><br/>
 
   <strong>Pages: </strong>
-    {% for page in site.pages %} {{ page | first }}{% unless forloop.last %}, {% endunless %} {% endfor %}
+    {% for page in site.pages %} {{ page.title }}{% unless forloop.last %}, {% endunless %} {% endfor %}
     <br/><br/>
 
   <h2>Archive </h2>
